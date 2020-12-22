@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;700&display=swap');
+
+
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*--------------------*/
+
+.header {
+
+
+    background: url(https://cheaphostingasp.net/wp-content/uploads/HNCK8984.jpg) rgba(0, 0, 0, 0.7);
+    background-blend-mode: color;
+    padding: 125px 0;
+    box-shadow: 1px 1px 5px #000;
+
+    h1 {
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 34px;
+
+    }
+
+
+
+    &_block {
+        margin: 0 20%;
+        text-align: center;
+
+
+
+    }
+
+    &_logo {
+        margin: 0;
+    }
+
+    &_title {
+        margin-top: 180px;
+        font-size: 22px;
+        color: white;
+        line-height: 1.5em;
+        letter-spacing: 1px;
+    }
+
+    &_button {
+        margin: 220px 0;
+    }
+}
+
+button {
+    background: none;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 8px 30px;
+    color: white;
+    box-shadow: 1px 1px 1px black;
+    transition: .5s ease;
+    border-radius: 10px;
+
+}
+
+button:hover {
+    box-shadow: 0px 0px 10px white;
+    background: white;
+    color: black;
+}
+
+
+
+.menu {
+    margin-top: 30px;
+    text-align: center;
+    word-spacing: 35px;
+
+    &_items {
+        font-size: 20px;
+        text-transform: uppercase;
+        color: black;
+        transition: .2s ease;
+
+    }
+
+    &_items:nth-child(2) {
+        word-spacing: 2px;
+    }
+
+    &_items:hover {
+        border-bottom: 3px solid red;
+
+    }
+
+    &_items:visited {
+        text-decoration: none;
+    }
+}
+
+
+
+.about {
+
+    &_body {}
+
+    &_header {
+        max-width: 1000px;
+        margin: 150px auto;
+    }
+
+    &_title {
+        margin: 0 0 30px 0;
+    }
+
+    &_text {
+        text-align: center;
+        font-size: 22px;
+        color: grey;
+        line-height: 1.5em;
+        font-weight: 400;
+
+    }
+
+    &_row {}
+
+    &_column {}
+}
+
+.title {
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 8.95px;
+    position: relative;
+    text-align: center;
+}
